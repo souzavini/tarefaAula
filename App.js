@@ -23,7 +23,7 @@ function gerarIntAleatorio(min, max) {
 }
 
   const quebrarBiscoito = () => {
-    setText('"' + frases[gerarIntAleatorio(1,frases.length)]);
+    setText('"' + frases[gerarIntAleatorio(0,frases.length)]);
     setImage(require('./assets/biscoitoQuebrado.png'));
   }
 
